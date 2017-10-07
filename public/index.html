@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Raintin's Best Treasure</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="index.html" class="pull-left ">
+                        <div id="logo-img" alt="Logo image"></div>
+                    </a>
+                    <!--<div class="navbar-brand">
+                            <a href="index.html"><h1>Raintin's Best Treasure</h1></a>
+                            <p>
+                                <span>100% 正品/現貨</span>
+                            </p>
+                        </div>-->
+                    <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div id="collapsable-nav" class="collapse navbar-collapse">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right">
+                        <li id="navHomeButton" class="visible-xs active">
+                            <a href="index.html"> Home</a>
+                        </li>
+                        <li id="navMenuButton">
+                            <a href="#product" onclick="$dc.loadMenuCategories();">
+                                <br class="hidden-xs"> 產品</a>
+                        </li>
+                        <li>
+                            <a href="#signin">
+                                <br class="hidden-xs"> 登入</a>
+                        </li>
+                        <li>
+                            <a href="#car">
+                                <br class="hidden-xs"> 購物車</a>
+                        </li>
+                    </ul>
+                    <!-- #nav-list -->
+                </div>
+                <!-- .collapse .navbar-collapse -->
+            </div>
+            <!-- .container -->
+            <!--<div id="solgan"></div>-->
+        </nav>
+
+        <div id="main-content" class="container">
+            
+        </div>
+
+        <footer class="panel-footer footer-right">
+            <div class="container">
+                <div id="footerLeft">&copy; Copyright Raintin's Best Treasure 2017
+                </div>
+                <div id="footerRight">
+                     <ul id="foot-list">
+                        <li>
+                            <a href="#" onclick="$dc.loadAboutMe();"> 關於我</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="$dc.loadMailMe()";> 聯絡我</a>
+                        </li>
+                        <li>
+                            <a href="#"> 訂購方式</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <!-- #header-nav -->
+        <!-- jQuery (Bootstrap JS plugins depend on it) -->
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/ajax-utils.js"></script>
+        <script src="js/script.js"></script>
+    </header>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+{
+	"menu_items":[
+		{"id":1001,"short_name":"MU1","name":"現貨 韓國 Aritaum MONO EYES 霧面 珠光 眼影 24-114","description":"24 / 35 / 36 / 43 / 62 / 64 / 82 / 84 / 90 / 98 / 100 / 101 / 102 / 107 / 114","price":"110", "stock":"2"},
+		{"id":1002,"short_name":"MU2","name":"現貨 全新 palladio 淺咖啡 taupe & the balm sexy mama 蜜粉餠","description":"淺咖啡色 / 淺咖啡色二組 / Sexy Mama / Sexy Mama 二組 / 淺咖啡+Sexy Mama","price":"470", "stock":"7"},
+		{"id":1003,"short_name":"MU3","name":"現貨 the balm 打亮 眼影 修容","description":"Mary / Cindy / Betty / 組合","price":"550", "stock":"2"},
+		{"id":1004,"short_name":"MU4","name":"現貨 義大利製 NATASHA DENONA 腮紅 BLUSH DUO","description":"02 / 14","price":"1200", "stock":"2"}
+	],
+	"category": {
+    "short_name": "MU",
+    "name": "Make Up",
+    "special_instructions":""
+	}
+	
+}
