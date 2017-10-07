@@ -243,7 +243,7 @@ h4.menu-item-title {
 
 #aboutMe{
   margin-top: 50px;
-  height: 500px;
+  height: 550px;
 }
 
 /* END FOOTER */
@@ -475,9 +475,5 @@ h4.menu-item-title {
 
     .menu-item-tile .menu-item-price{
       margin-top: 10px;
-    }
-
-    #aboutMe{
-      height: 550px;
     }
 }
