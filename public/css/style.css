@@ -461,7 +461,7 @@ h4.menu-item-title {
         height: 20px;
     }
 
-     .menu-item-photo {
+    .menu-item-photo {
       margin: 10px auto;
     }
 
@@ -475,5 +475,9 @@ h4.menu-item-title {
 
     .menu-item-tile .menu-item-price{
       margin-top: 10px;
+    }
+
+    #aboutMe{
+      height: 550px;
     }
 }
