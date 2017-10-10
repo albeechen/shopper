@@ -146,8 +146,12 @@ nav .container {
 
 /* END HEADER */
 
+div h4{
+  line-height: 1.5em;
+}
+
 /* MENU CATEGORIES PAGE */
-.category-tile { 
+.category-tile{ 
   position: relative;
   overflow: hidden;
   width: 200px;
@@ -171,67 +175,49 @@ nav .container {
 .category-tile:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
-/*
-#menu-categories-title + div {
-  margin-bottom: 50px;
-}*/
 /* END MENU CATEGORIES PAGE */
 
-/* SINGLE CATEGORY PAGE */
-.menu-item-tile {
-  margin-bottom: 25px;
-}
-.menu-item-tile hr {
-  width: 80%;
-}
-.menu-item-tile .menu-item-price {
-  font-size: 1.1em;
-  text-align: right;
-  margin-top: -15px;
-  margin-right: -15px;
-}
-.menu-item-tile .menu-item-price span {
-  font-size: .6em;
-  
-}
-.menu-item-tile{
-  color: black;
+/* MENU ITEMS PAGE */
+.menu-tile{ 
+  position: relative;
+  width: 250px;
+  height: 280px;
+  margin: 0 auto 15px;
 }
 
+.menu-tile-price{
+  text-align: center;
+  margin: 0 20px;
+  bottom: 5px;
+}
+/* END MENU ITEMS PAGE */
+
+/* SINGLE CATEGORY PAGE */
 .menu-item-photo {
-  position: relative;
+  text-align: center;
   overflow: hidden;
   padding: 0;
-  margin-right: -15px;
-  margin-left: auto;
-  margin-bottom: 20px;
   max-width: 250px;
-}
-.menu-item-photo div {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 80px;
-  background-color: #557c3e;
-  text-align: center;
-}
-.menu-item-description {
-  padding-right: 30px;
-  color: black;
-}
-h4.menu-item-title {
-  margin: 0 0 10px;
-  color: black;
-}
-.menu-item-details {
-  font-size: .9em;
-  font-style: italic;
 }
 /* END SINGLE CATEGORY PAGE */
 
+.menu-item-photo{
+  float: right;
+}
+
+#buyBox{
+  float: left;
+}
+
+/* ABOUT PAGE */
+#aboutMe{
+  margin-top: 50px;
+  height: 550px;
+}
+/* END ABOUT PAGE */
+
 
 /* FOOTER */
-
 .panel-footer {
     height: 50px;
     padding-top: 10px;
@@ -240,13 +226,8 @@ h4.menu-item-title {
     border-top: 0;
     color: black;
 }
-
-#aboutMe{
-  margin-top: 50px;
-  height: 550px;
-}
-
 /* END FOOTER */
+
 
 
 /********** Medium devices only **********/
@@ -365,28 +346,26 @@ h4.menu-item-title {
     }
     /* End Home Page */
 
-    .menu-item-photo {
-      margin: 10px auto;
+    .menu-item-photo{
+      float: none;
+      margin: 0 auto;
     }
 
-    .menu-item-title, .menu-item-details, .menu-item-tile .menu-item-price{
+    .menu-item-details, .menu-item-title,
+    .menu-item-price{ 
       text-align: center;
+      float: none;
+      margin: 5px auto;
+      width: 60%;
     }
 
-    .row div {
-      margin-bottom: 10px;
-    }
-
-    .menu-item-tile .menu-item-price{
-      margin-top: 10px;
+    .spinBox, .buyBtn {
+      text-align: center;
+      float: none;
+      margin: 0 auto;
+      width: 60%;
     }
 }
-
-
-
-
-
-
 
 
 /********** xxs: Super extra small devices Only :-) (e.g., iPhone 4) **********/
@@ -461,19 +440,24 @@ h4.menu-item-title {
         height: 20px;
     }
 
-    .menu-item-photo {
-      margin: 10px auto;
+    .menu-item-photo{
+      float: none;
+      margin: 0 auto;
     }
 
-    .menu-item-title, .menu-item-details, .menu-item-tile .menu-item-price{
+    .menu-item-details, .menu-item-title,
+    .menu-item-price{ 
       text-align: center;
+      float: none;
+      margin: 10px auto;
+      width: 60%;
     }
 
-    .row div {
-      margin-bottom: 10px;
+    .spinBox, .buyBtn {
+      text-align: center;
+      float: none;
+      margin: 0 auto;
+      width: 60%;
     }
 
-    .menu-item-tile .menu-item-price{
-      margin-top: 10px;
-    }
 }

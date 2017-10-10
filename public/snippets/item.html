@@ -1,0 +1,33 @@
+<div class="menu-item-tile col-md-12">
+    <div class="row">
+        <div class="col-sm-4 col-xs-12 col-xxs-12">
+            <div class="menu-item-photo">
+                <!--<div>{{short_name}}</div>--><!--tag on the img-->
+                <img class="img-responsive" width="250" height="200" src="images/menu/{{catShortName}}/{{short_name}}.jpg" alt="Item">
+            </div>
+        </div>
+        <div class="col-sm-4 col-xs-12 col-xxs-12">
+            <h4 class="menu-item-title">{{name}}</h4>
+            <p class="menu-item-price">{{price}}</p>
+            <p class="menu-item-details">庫存:{{stock}}</p>
+            <p class="menu-item-details">{{description}}</p>
+            <div class="input-group number-spinner col-xs-6 spinBox">
+                <span class="input-group-btn">
+                  <button class="btn btn-default" data-dir="dwn">
+                    <span class="glyphicon glyphicon-minus"></span>
+                  </button>
+                </span>
+                <input type="text" class="form-control text-center" value="1">
+                <span class="input-group-btn">
+                  <button class="btn btn-default" data-dir="up">
+                    <span class="glyphicon glyphicon-plus"></span>
+                  </button>
+                </span>
+            </div>
+            <div class="buyBtn">
+        	<button class="btn btn-default buyBtn">加入購物車</button>
+           	</div>
+        </div>
+    </div>
+    <hr class="visible-xs">
+</div>
