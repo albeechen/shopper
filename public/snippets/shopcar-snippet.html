@@ -1,0 +1,35 @@
+<div class="menu-item-tile col-md-12">
+    <div class="row">
+        <div class="col-sm-4 col-xs-12 col-xxs-4">
+            <div class="menu-item-photo">
+                <!--<div>{{short_name}}</div>--><!--tag on the img-->
+                <img class="img-responsive" width="150" height="150" src="{{imgSrc}}" alt="Item">
+            </div>
+        </div>
+        <div class="col-sm-8 col-xs-12 col-xxs-8">
+            <!--<h4 class="menu-item-title" >{{name}}</h4>-->
+            <p class="shopcar-item-details" id="buyNo" style="font-size: 12px; display: none;" >{{id}}</p>
+            <p class="shopcar-item-title" id="buyName">{{name}}</p>
+            <div class="shopcar-item-price" id="buyPrice{{id}}">{{price}}</div>
+            <div class="modifiedQtBtnBox">
+            <div id="ModifiedQtSpinBox{{id}}" class="input-group number-spinner col-sm-3 col-xs-6 col-xs-8 shopCarSpinBox">
+                <span class="input-group-btn">
+                  <button class="btn btn-default" data-dir="dwn" onclick="$dc.reCalulatePriceDwn({{id}}, value)">
+                    <span class="glyphicon glyphicon-minus"></span>
+                  </button>
+                </span>
+                <input type="text" class="form-control text-center" value="{{qt}}" id="modifiedQt{{id}}" OnKeyUp="$dc.modiefingPrice({{id}}, value)">
+                <span class="input-group-btn">
+                  <button class="btn btn-default" data-dir="up" onclick="$dc.reCalulatePriceUp({{id}}, value)">
+                    <span class="glyphicon glyphicon-plus"></span>
+                  </button>
+                </span>
+            </div>
+        	<!--<button class="btn btn-default buyBtn" onclick="$dc.clickBuy({{id}})">加入購物車</button>
+           	</div>-->
+        </div>
+        </div>
+    </div>
+    <hr class="visible-xs">
+</div>
+

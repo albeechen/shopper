@@ -1,16 +1,8 @@
 body {
     font-size: 16px;
-    color: black;/*#fff;*/
+    color: black;
     background-color: white;
     font-family: 'Oxygen', sans-serif;
-    /*background: -webkit-linear-gradient(white, #ff9966);
-    /* For Safari 5.1 to 6.0 */
-    /*background: -o-linear-gradient(white, #ff9966);
-    /* For Opera 11.1 to 12.0 */
-    /*background: -moz-linear-gradient(white, #ff9966);
-    /* For Firefox 3.6 to 15 */
-   /* background: linear-gradient(white, #ff9966);
-    /* Standard syntax */
 }
 
 
@@ -34,6 +26,8 @@ nav .container {
     height: 60px;
 }
 
+
+
 /*#solgan{
   width: 100%;
   height: 40px;
@@ -47,7 +41,11 @@ nav .container {
     margin: 5px 15px 10px 0;
 }
 
+
+
 /* index title*/
+
+
 /*
 .navbar-brand {
   padding-top: 25px;
@@ -78,15 +76,13 @@ nav .container {
 
 */
 
-#nav-list a {
-    color: black;
-    text-align: center;
-    height: 60px;
+#nav-list a:focus,
+#nav-list a:active {
+    color: #ff9966;
 }
 
-#nav-list a:hover,
-#nav-list a:focus {
-    color: #ff9966;
+#nav-list a:hover {
+    text-decoration: overline;
 }
 
 #nav-list a span {
@@ -101,6 +97,7 @@ nav .container {
 #footerRight {
     float: left;
     width: 30%;
+    padding-left: 0px;
 }
 
 #footerRight ul {
@@ -120,105 +117,165 @@ nav .container {
 }
 
 
-#menu-categories-title{
-  color: gray;
+#menu-categories-title {
+    color: gray;
 }
 
-.row{
-  margin-top: 20px;
+.row {
+    margin-top: 20px;
 }
 
-.row div{
-  margin-bottom: 20px;
+.row div {
+    margin-bottom: 20px;
 }
 
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+    border: 1px solid #61122f;
 }
+
 .navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: -30px;
+    clear: both;
+    margin-top: -30px;
 }
 
-.navbar-nav .active a{
-   background-color: transparent !important;
+.navbar-nav .active a {
+    background-color: transparent !important;
 }
+
+
 
 /* END HEADER */
 
-div h4{
-  line-height: 1.5em;
+div h4 {
+    line-height: 1.5em;
+}
+
+#shopCar{
+    height: 100px;
+    background-color: #ff9966; 
+    opacity: 0.6;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 40px;
 }
 
 /* MENU CATEGORIES PAGE */
-.category-tile{ 
-  position: relative;
-  overflow: hidden;
-  width: 200px;
-  height: 200px;
-  margin: 0 auto 15px;
+
+.category-tile {
+    position: relative;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 15px;
 }
 
 .category-tile span {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  text-align: center;
-  font-size: 1.2em;
-  text-transform: uppercase;
-  background-color: #94b8b8;
-  color: #fff;
-  opacity: .8;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: #94b8b8;
+    color: #fff;
+    opacity: .8;
 }
 
 .category-tile:hover {
-  box-shadow: 0 1px 5px 1px #cccccc;
+    box-shadow: 0 1px 5px 1px #cccccc;
 }
+
+
+
 /* END MENU CATEGORIES PAGE */
 
+
 /* MENU ITEMS PAGE */
-.menu-tile{ 
-  position: relative;
-  width: 250px;
-  height: 280px;
-  margin: 0 auto 15px;
+
+.menu-tile {
+    position: relative;
+    width: 250px;
+    height: 280px;
+    margin: 0 auto 15px;
 }
 
-.menu-tile-price{
-  text-align: center;
-  margin: 0 20px;
-  bottom: 5px;
+.menu-tile-price {
+    text-align: center;
+    margin: 0 20px;
+    bottom: 5px;
 }
+
+
+
 /* END MENU ITEMS PAGE */
 
+
 /* SINGLE CATEGORY PAGE */
+
 .menu-item-photo {
-  text-align: center;
-  overflow: hidden;
-  padding: 0;
-  max-width: 250px;
+    text-align: center;
+    overflow: hidden;
+    padding: 0;
+    max-width: 250px;
 }
+
+
+
 /* END SINGLE CATEGORY PAGE */
 
-.menu-item-photo{
-  float: right;
+.menu-item-photo {
+    float: right;
 }
 
-#buyBox{
-  float: left;
+#buyBox {
+    float: left;
 }
+
 
 /* ABOUT PAGE */
-#aboutMe{
-  margin-top: 50px;
-  height: 550px;
+
+#aboutMe,
+#orderRule,
+#logIn,
+#SignIn,
+#sperateBar {
+    margin-top: 50px;
+    height: 550px;
 }
+
+
+
 /* END ABOUT PAGE */
+
+#context-form {
+    width: 90%;
+    height: 90%;
+    margin: 20px auto;
+}
+
+#context-form input {
+    width: 100%;
+    height: 40px;
+    margin: 20px auto;
+}
+
+#message {
+    height: 200px;
+    width: 100%;
+}
+
+#sperateBar {
+    border: 3px solid #ff9966;
+    float: left;
+}
 
 
 /* FOOTER */
+
 .panel-footer {
+    margin-top: 50px;
     height: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -226,8 +283,39 @@ div h4{
     border-top: 0;
     color: black;
 }
-/* END FOOTER */
 
+#SignIn,
+#logIn {
+    width: 48%;
+    float: left;
+    background-color: white;
+    font-family: 'Gloria Hallelujah', cursive;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.form_class{
+    width: 100%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.form_class input {
+    width: 70%;
+    height: 50px;
+}
+
+.form_class_submit{
+    width: 60%;
+    margin: 50px auto;
+}
+
+.form_class_submit input{
+    background-color: #ff9966;
+}
+
+/* END FOOTER */
 
 
 /********** Medium devices only **********/
@@ -241,6 +329,8 @@ div h4{
         width: 35%;
     }
 }
+
+
 
 
 
@@ -291,6 +381,8 @@ div h4{
 
 
 
+
+
 /********** xs: Extra small devices only **********/
 
 @media (min-width: 480px) and (max-width: 767px) {
@@ -308,13 +400,14 @@ div h4{
     }
 
     .navbar-header button.navbar-toggle {
-      margin-top: -45px;
+        margin-top: -45px;
     }
 
     #nav-list a,
     #footerLeft,
     #footerRight {
         font-size: 16px;
+        text-align: center;
     }
 
     #nav-list a,
@@ -345,27 +438,74 @@ div h4{
         margin: 0 auto;
     }
     /* End Home Page */
-
-    .menu-item-photo{
-      float: none;
-      margin: 0 auto;
+    .menu-item-photo {
+        float: none;
+        margin: 0 auto;
     }
 
-    .menu-item-details, .menu-item-title,
-    .menu-item-price{ 
-      text-align: center;
-      float: none;
-      margin: 5px auto;
-      width: 60%;
+    .menu-item-details,
+    .menu-item-title,
+    .menu-item-price {
+        text-align: center;
+        float: none;
+        margin: 5px auto;
+        width: 60%;
     }
 
-    .spinBox, .buyBtn {
-      text-align: center;
-      float: none;
-      margin: 0 auto;
-      width: 60%;
+     .col-xxs-4 {
+        position: relative;
+        min-height: 1px;
+        padding-right: 30px;
+        padding-left: 30px;
+        float: left;
+        width: 30%;
+    }
+
+    .col-xxs-8 {
+        position: relative;
+        min-height: 1px;
+        padding-right: 30px;
+        padding-left: 30px;
+        float: left;
+        width: 70%;
+    }
+
+    .shopcar-item-details,
+    .shopcar-item-title,
+    {
+        text-align: left;
+        margin: 5px auto;
+        width: 90%;
+        font-size: 12px;
+    }
+
+    .shopcar-item-price {
+        text-align: left;
+        margin: 5px auto;
+        width: 40%;
+        float: left;
+        font-size: 12px;
+    }
+
+    .spinBox,
+    .buyBtn,
+    .modifiedQtBtn {
+        text-align: center;
+        float: none;
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    .title-background {
+        display: none;
+    }
+
+    .buyBtnBox{
+        text-align: center;
     }
 }
+
+
 
 
 /********** xxs: Super extra small devices Only :-) (e.g., iPhone 4) **********/
@@ -385,12 +525,12 @@ div h4{
     }
 
     .navbar-header button.navbar-toggle {
-      margin-top: -40px;
+        margin-top: -40px;
     }
 
-    .item img{
-      width: 100%;
-      height: 400px;
+    .item img {
+        width: 100%;
+        height: 400px;
     }
 
     #home_frame {
@@ -398,8 +538,11 @@ div h4{
         margin-bottom: 40px;
     }
 
-    #nav-list a, #footerLeft, #footerRight {
+    #nav-list a,
+    #footerLeft,
+    #footerRight {
         font-size: 14px;
+        text-align: center;
     }
 
     #nav-list a,
@@ -414,6 +557,24 @@ div h4{
         padding-left: 15px;
         float: left;
         width: 100%;
+    }
+
+    .col-xxs-4 {
+        position: relative;
+        min-height: 1px;
+        padding-right: 10px;
+        padding-left: 10px;
+        float: left;
+        width: 30%;
+    }
+
+    .col-xxs-8 {
+        position: relative;
+        min-height: 1px;
+        padding-right: 10px;
+        padding-left: 10px;
+        float: left;
+        width: 70%;
     }
 
     .panel-footer {
@@ -440,24 +601,67 @@ div h4{
         height: 20px;
     }
 
-    .menu-item-photo{
-      float: none;
-      margin: 0 auto;
+    .menu-item-photo {
+        float: none;
+        margin: 0 auto;
+        text-align: center;
     }
 
-    .menu-item-details, .menu-item-title,
-    .menu-item-price{ 
-      text-align: center;
-      float: none;
-      margin: 10px auto;
-      width: 60%;
+    .menu-item-details,
+    .menu-item-title,
+    .menu-item-price {
+        text-align: center;
+        float: none;
+        margin: 10px auto;
+        width: 60%;
     }
 
-    .spinBox, .buyBtn {
-      text-align: center;
-      float: none;
-      margin: 0 auto;
-      width: 60%;
+    .shopcar-item-details,
+    .shopcar-item-title,
+    {
+        text-align: left;
+        margin: 5px auto;
+        width: 90%;
+        font-size: 12px;
     }
 
+    .shopcar-item-price {
+        text-align: left;
+        margin: 5px auto;
+        width: 40%;
+        float: left;
+        font-size: 12px;
+    }
+
+    .spinBox,
+    .buyBtn ,
+    .modifiedQtBtn{
+        text-align: center;
+        float: none;
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    .shopCarSpinBox,
+    {
+        float: left;
+        width: 60%;
+    }
+
+    .title-background {
+        display: none;
+    }
+
+    #shopCar{
+        height: 40px;
+        padding-top: 10px;
+    }
+
+    .modifiedQtBtnBox, .buyBtnBox{
+        text-align: center;
+    }
+
+    .menu-item-photo img{
+        margin: auto;
+    }
 }

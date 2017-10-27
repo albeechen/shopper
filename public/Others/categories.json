@@ -3,6 +3,5 @@
 	{"id":2,"short_name":"SC","name":"Skin Care","special_instructions":"","url":"https://davids-restaurant.herokuapp.com/categories/86.json"},
 	{"id":3,"short_name":"HR","name":"Hair","special_instructions":"","url":"https://davids-restaurant.herokuapp.com/categories/87.json"},
 	{"id":4,"short_name":"BG","name":"BAGS","special_instructions":"","url":"https://davids-restaurant.herokuapp.com/categories/87.json"},
-	{"id":5,"short_name":"SH","name":"Shoes","special_instructions":"","url":"https://davids-restaurant.herokuapp.com/categories/87.json"}
-	
+	{"id":5,"short_name":"SH","name":"Shoes","special_instructions":"","url":"https://davids-restaurant.herokuapp.com/categories/87.json"}	
 ]

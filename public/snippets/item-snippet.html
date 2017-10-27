@@ -3,13 +3,13 @@
         <div class="col-sm-4 col-xs-12 col-xxs-12">
             <div class="menu-item-photo">
                 <!--<div>{{short_name}}</div>--><!--tag on the img-->
-                <img class="img-responsive" width="250" height="200" src="images/menu/{{catShortName}}/{{short_name}}.jpg" alt="Item">
+                <img id="itemImg" class="img-responsive" width="250" height="200" src="images/menu/{{catShortName}}/{{short_name}}.jpg" alt="{{short_name}}">
             </div>
         </div>
         <div class="col-sm-4 col-xs-12 col-xxs-12">
-            <h4 class="menu-item-title">{{name}}</h4>
-            <p class="menu-item-price">{{price}}</p>
-            <p class="menu-item-details">庫存:{{stock}}</p>
+            <h4 class="menu-item-title" id="buyName">{{name}}</h4>
+            <p class="menu-item-price" id="buyPrice">{{price}}</p>
+            <p class="menu-item-details" id="buyNo">{{id}}</p>
             <p class="menu-item-details">{{description}}</p>
             <div class="input-group number-spinner col-xs-6 spinBox">
                 <span class="input-group-btn">
@@ -17,15 +17,15 @@
                     <span class="glyphicon glyphicon-minus"></span>
                   </button>
                 </span>
-                <input type="text" class="form-control text-center" value="1">
+                <input type="text" class="form-control text-center" value="1" id="quantity">
                 <span class="input-group-btn">
                   <button class="btn btn-default" data-dir="up">
                     <span class="glyphicon glyphicon-plus"></span>
                   </button>
                 </span>
             </div>
-            <div class="buyBtn">
-        	<button class="btn btn-default buyBtn">加入購物車</button>
+            <div class="buyBtnBox">
+        	<button class="btn btn-default buyBtn" onclick="$dc.clickBuy({{id}})">加入購物車</button>
            	</div>
         </div>
     </div>
